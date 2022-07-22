@@ -21,6 +21,5 @@ class TestUnionFind(unittest.TestCase):
         self.assertEqual(6, T.size(4))
         self.assertEqual(1, T.size(7))
 
-
 if __name__ == '__main__':
     unittest.main()

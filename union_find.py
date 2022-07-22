@@ -22,7 +22,6 @@ class UnionFind:
             self.p[y] += self.p[x]
             self.p[x] = y
 
-
     def same(self, x, y):
         return self.find(x) == self.find(y)
 
